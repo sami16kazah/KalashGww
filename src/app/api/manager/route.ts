@@ -17,6 +17,7 @@ export async function POST(req: Request) {
     }
 
     const data = await req.json();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { _id, __v, ...updateData } = data;
     await dbConnect();
 

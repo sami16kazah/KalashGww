@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const WorkMethod = ({ dict }: { dict: any }) => {
+const WorkMethod = ({ dict }: { dict: { work_method: { title: string; list: string[]; footer: string } } }) => {
   return (
     <section className="py-24 max-w-5xl mx-auto px-6">
       <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -32,7 +32,7 @@ const WorkMethod = ({ dict }: { dict: any }) => {
         >
           <div className="bg-black p-8 rounded-[22px] h-full flex flex-col justify-center">
             <p className="text-2xl font-semibold text-white leading-relaxed italic">
-              "{dict.work_method.footer}"
+              &quot;{dict.work_method.footer}&quot;
             </p>
           </div>
         </motion.div>

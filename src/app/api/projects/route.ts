@@ -29,6 +29,7 @@ export async function POST(request: Request) {
     console.log("Creating Project with body:", body);
     const project = await Project.create(body);
     return NextResponse.json(project, { status: 201 });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {
     console.error("POST Project Error:", err);
     return NextResponse.json({ 

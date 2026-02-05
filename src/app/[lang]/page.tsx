@@ -48,6 +48,7 @@ export default async function Page({
 }
 
 // Map the DB structure to what the components expect
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function transformData(db: any, lang: 'nl' | 'en', fallback: any) {
   db = db || {};
   return {

@@ -30,6 +30,7 @@ export default function RegisterPage() {
         setError(data.message || "Something went wrong");
       }
     } catch (err) {
+      console.error(err);
       setError("An error occurred");
     } finally {
       setLoading(false);

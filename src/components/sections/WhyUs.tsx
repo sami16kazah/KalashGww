@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
-const WhyUs = ({ dict }: { dict: any }) => {
+const WhyUs = ({ dict }: { dict: { why_us: { title: string; list: string[] } } }) => {
   return (
     <section className="py-24 max-w-6xl mx-auto px-6">
       <motion.div
