@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Reliable support in ground, road and water construction",
+    "subtitle": "Kalash GWW is a flexible and professionally applicable company within the GWW sector. We support contractors and infra companies with skilled deployment on projects in earthwork, paving and civil works."
+  },
+  "about": {
+    "title": "About Kalash GWW",
+    "p1": "Kalash GWW was founded with one clear goal: to provide reliable and professional support to companies in ground, road and water construction.",
+    "p2": "We actively participate in projects and provide practical support on the floor. In addition, we can quickly deploy extra professionals when planning demands it.",
+    "p3": "Kalash GWW stands for short lines, clear agreements and a serious work attitude. We believe in long-term collaborations and building a strong name within the sector.",
+    "badge": "Reliable & Professional"
+  },
+  "services": {
+    "title": "Our services",
+    "list": [
+      "Support with paving",
+      "Deployment of foremen",
+      "Earthworks",
+      "Work for sewerage",
+      "Support for civil projects",
+      "Deployment of a certified crane operator"
+    ],
+    "footer": "We think along with the execution and flexibly adapt to the work situation on location."
+  },
+  "staff": {
+    "title": "Flexible personnel",
+    "description": "In addition to its own deployment, Kalash GWW has a fixed group of experienced professionals, including:",
+    "list": [
+      "Foremen",
+      "Ground workers",
+      "Personnel with experience in sewerage work",
+      "A certified crane operator"
+    ],
+    "footer": "This allows us to scale up quickly when a project needs extra support."
+  },
+  "work_method": {
+    "title": "Our working method",
+    "list": [
+      "Clear communication",
+      "Switch quickly",
+      "Thinking along with the execution",
+      "Working neatly and safely",
+      "Respect for planning and appointments"
+    ],
+    "footer": "We understand how important continuity and reliability are on a construction site."
+  },
+  "safety": {
+    "title": "Safety and Quality",
+    "p1": "Working safely is central to Kalash GWW. We think it is important that work is carried out correctly, carefully and in accordance with the applicable safety guidelines.",
+    "p2": "Quality on the floor and a professional appearance towards clients and colleagues are natural for us."
+  },
+  "why_us": {
+    "title": "Why choose Kalash GWW?",
+    "list": [
+      "Flexible deployment in busy periods",
+      "Sufficient extra professionals available quickly",
+      "Thinking along in planning and implementation",
+      "Fair and clear agreements",
+      "Focus on quality and cooperation",
+      "Reliable and professional"
+    ]
+  },
+  "contact": {
+    "title": "Collaborating with Kalash GWW",
+    "description": "Are you looking for a flexible and reliable partner for your GWW projects? Kalash GWW is happy to think along with you and supports your team where necessary.",
+    "cta": "Feel free to contact us to discuss the possibilities.",
+    "email": "Email",
+    "send": "Send Message"
+  }
+}

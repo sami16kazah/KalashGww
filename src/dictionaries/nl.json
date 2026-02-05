@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Betrouwbare ondersteuning in grond-, weg- en waterbouw",
+    "subtitle": "Kalash GWW is een flexibel en professioneel inzetbaar bedrijf binnen de GWW-sector. Wij ondersteunen aannemers en infrabedrijven met vakbekwame inzet op projecten in grondwerk, straatwerk en civiele werkzaamheden."
+  },
+  "about": {
+    "title": "Over Kalash GWW",
+    "p1": "Kalash GWW is opgericht met één duidelijk doel: op een betrouwbare en professionele manier ondersteuning bieden aan bedrijven in de grond-, weg- en waterbouw.",
+    "p2": "Wij werken actief mee op de projecten en leveren praktische ondersteuning op de werkvloer. Daarnaast kunnen wij snel extra vakmensen inzetten wanneer de planning daarom vraagt.",
+    "p3": "Kalash GWW staat voor korte lijnen, duidelijke afspraken en een serieuze werkhouding. Wij geloven in langdurige samenwerkingen en het opbouwen van een sterke naam binnen de sector.",
+    "badge": "Betrouwbaar & Professioneel"
+  },
+  "services": {
+    "title": "Onze dienstverlening",
+    "list": [
+      "Ondersteuning bij straatwerk",
+      "Inzet van oppermannen",
+      "Grondwerkzaamheden",
+      "Werkzaamheden voor riolering",
+      "Ondersteuning bij civiele projecten",
+      "Inzet van een gecertificeerde kraanmachinist"
+    ],
+    "footer": "Wij denken mee met de uitvoering en passen ons flexibel aan de werksituatie op locatie aan."
+  },
+  "staff": {
+    "title": "Flexibel inzetbaar personeel",
+    "description": "Naast de eigen inzet beschikt Kalash GWW over een vaste groep ervaren vakmensen, waaronder:",
+    "list": [
+      "Oppermannen",
+      "Grondwerkers",
+      "Personeel met ervaring in rioleringswerk",
+      "Een gecertificeerde kraanmachinist"
+    ],
+    "footer": "Hierdoor kunnen wij snel opschalen wanneer een project extra ondersteuning nodig heeft."
+  },
+  "work_method": {
+    "title": "Onze werkwijze",
+    "list": [
+      "Heldere communicatie",
+      "Snel schakelen",
+      "Meedenken met de uitvoering",
+      "Netjes en veilig werken",
+      "Respect voor planning en afspraken"
+    ],
+    "footer": "Wij begrijpen hoe belangrijk continuïteit en betrouwbaarheid zijn op een bouwplaats."
+  },
+  "safety": {
+    "title": "Veiligheid en kwaliteit",
+    "p1": "Veilig werken staat bij Kalash GWW centraal. Wij vinden het belangrijk dat werkzaamheden correct, zorgvuldig en volgens de geldende veiligheidsrichtlijnen worden uitgevoerd.",
+    "p2": "Kwaliteit op de werkvloer en een professionele uitstraling richting opdrachtgevers en collega’s zijn voor ons vanzelfsprekend."
+  },
+  "why_us": {
+    "title": "Waarom kiezen voor Kalash GWW?",
+    "list": [
+      "Flexibel inzetbaar in drukke periodes",
+      "Snel extra vakmensen beschikbaar",
+      "Meedenkend in planning en uitvoering",
+      "Eerlijke en duidelijke afspraken",
+      "Focus op kwaliteit en samenwerking",
+      "Betrouwbaar en professioneel"
+    ]
+  },
+  "contact": {
+    "title": "Samenwerken met Kalash GWW",
+    "description": "Bent u op zoek naar een flexibele en betrouwbare partner voor uw GWW-projecten? Kalash GWW denkt graag met u mee en ondersteunt uw team waar nodig.",
+    "cta": "Neem gerust contact op om de mogelijkheden te bespreken.",
+    "email": "E-mail",
+    "send": "Stuur Bericht"
+  }
+}
