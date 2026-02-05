@@ -13,7 +13,8 @@ type Project = {
   imageUrl: string;
 };
 
-const Projects = ({ dict, lang }: { dict: any; lang: "en" | "nl" }) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const Projects = ({ lang }: { lang: "en" | "nl"; dict?: any }) => {
   const [projects, setProjects] = useState<Project[]>([]);
   const [mounted, setMounted] = useState(false);
 

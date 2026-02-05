@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Users } from "lucide-react";
 
-const Staff = ({ dict }: { dict: any }) => {
+const Staff = ({ dict }: { dict: { staff: { title: string; description: string; list: string[]; footer: string } } }) => {
   return (
     <section id="personnel" className="py-24 bg-white/5 skew-y-1">
       <div className="-skew-y-1 max-w-5xl mx-auto px-6">

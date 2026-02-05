@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
 import Image from "next/image";
 
-const ManagerSection = ({ manager }: { manager: any }) => {
+const ManagerSection = ({ manager }: { manager: { name: string; photoUrl: string; bio: string; email: string } | null }) => {
   if (!manager || !manager.name) return null;
 
   return (

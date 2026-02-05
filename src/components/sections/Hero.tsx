@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const Hero = ({ dict }: { dict: any }) => {
+const Hero = ({ dict }: { dict: { hero: { title: string; subtitle: string } } }) => {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-[80vh] text-center px-4 overflow-hidden">
       {/* Background Glow */}

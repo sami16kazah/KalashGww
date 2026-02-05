@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
-const Services = ({ dict }: { dict: any }) => {
+const Services = ({ dict }: { dict: { services: { title: string; list: string[]; footer: string } } }) => {
   return (
     <section id="services" className="py-24 max-w-6xl mx-auto px-6">
       <motion.div

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Mail, Send } from "lucide-react";
 
-const Contact = ({ dict }: { dict: any }) => {
+const Contact = ({ dict }: { dict: { contact: { title: string; description: string; cta: string }; manager: { email: string } } }) => {
   return (
     <section id="contact" className="py-24 max-w-4xl mx-auto px-6 text-center">
       <motion.div

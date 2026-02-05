@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, MapPin, Calendar, User } from "lucide-react";
-import { notFound } from "next/navigation";
 
 // Reuse navbar/footer via layout, but ensure we have a back button
 
 export default function ProjectDetailPage({ params }: { params: { id: string, lang: 'en' | 'nl' } }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [project, setProject] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
@@ -17,12 +17,13 @@ export default function ProjectDetailPage({ params }: { params: { id: string, la
     fetch(`/api/projects`) // Ideally fetch single, but filtering local is fine for small list
       .then(res => res.json())
       .then(data => {
+         // eslint-disable-next-line @typescript-eslint/no-explicit-any
          const found = data.find((p: any) => p._id === params.id);
          if (found) setProject(found);
          else setProject(null);
          setLoading(false);
       })
-      .catch(err => setLoading(false));
+      .catch(() => setLoading(false));
   }, [params.id]);
 
   if (loading) return <div className="min-h-screen flex items-center justify-center bg-[#050505] text-white">Loading...</div>;

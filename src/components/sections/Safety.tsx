@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ShieldCheck } from "lucide-react";
 
-const Safety = ({ dict }: { dict: any }) => {
+const Safety = ({ dict }: { dict: { safety: { title: string; p1: string; p2: string } } }) => {
   return (
     <section className="py-24 max-w-5xl mx-auto px-6">
       <motion.div

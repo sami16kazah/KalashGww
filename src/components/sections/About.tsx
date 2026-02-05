@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const About = ({ dict }: { dict: any }) => {
+const About = ({ dict }: { dict: { about: { title: string; p1: string; p2: string; p3: string; badge: string } } }) => {
   return (
     <section id="about" className="py-24 max-w-5xl mx-auto px-6">
       <motion.div
